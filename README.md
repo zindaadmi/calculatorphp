@@ -1,5 +1,3 @@
-# calculatorphp
-A php based calculator with the basic oops concepts.
 # git-from-scratch
 
 By Got Your Backs
