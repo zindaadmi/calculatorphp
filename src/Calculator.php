@@ -2,10 +2,11 @@
 
 namespace Calculator;
 
+use Calculator\Contracts\CalculatorInterface;
 use Calculator\Operations\Exponent;
 use Calculator\Operations\Percentage;
 
-class Calculator
+class Calculator implements CalculatorInterface
 {
     function exponent($num, $exponent): float
     {
