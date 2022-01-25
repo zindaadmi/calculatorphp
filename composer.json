@@ -1,17 +1,15 @@
 {
-    "name": "nikhil/git-from-scratch",
-    "authors": [
-        {
-            "name": "Nikhil",
-            "email": "nikhil.parakh@mpokket.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Calculator\\": "src/"
-        }
-    },
-    "require": {
-        "phpunit/phpunit": "^9"
+  "name": "me/calculator",
+  "description": "Calculator program",
+  "authors": [
+    {
+      "name": "Nikhil Parakh",
+      "email": "kanha537@gmail.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Calculator\\": "src/"
+    }
+  }
 }

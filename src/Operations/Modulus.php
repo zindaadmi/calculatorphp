@@ -14,11 +14,12 @@ class Modulus
 
     public function __construct($num1, $num2)
     {
-        $this->num1= $num1;
+        $this->num1 = $num1;
         $this->num2 = $num2;
     }
 
-    public function modulo(){
+    public function mod()
+    {
         return ($this->num1 % $this->num2);
     }
 }

@@ -16,7 +16,8 @@ class Multiply
         $this->num2 = $num2;
     }
 
-    public function multiply(){
+    public function multiply()
+    {
         return ($this->num1 * $this->num2);
     }
 }

@@ -12,3 +12,4 @@ unset($argv[0]);
 unset($argv[1]);
 
 print($calcObj->$operation(...$argv));
+?>

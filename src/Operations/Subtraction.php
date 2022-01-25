@@ -16,7 +16,8 @@ class Subtraction
         $this->num2 = $num2;
     }
 
-    public function add(){
+    public function subtract()
+    {
         return ($this->num1 - $this->num2);
     }
 

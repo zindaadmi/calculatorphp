@@ -16,7 +16,8 @@ class Add
         $this->num2 = $num2;
     }
 
-    public function add(){
+    public function add()
+    {
         return ($this->num1 + $this->num2);
     }
 

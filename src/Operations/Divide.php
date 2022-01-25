@@ -16,7 +16,8 @@ class Divide
         $this->num2 = $num2;
     }
 
-    public function divide(){
+    public function divide()
+    {
         return ($this->num1 / $this->num2);
     }
 }
